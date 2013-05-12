@@ -1,5 +1,5 @@
 
-" vim: set foldmarker={,} foldlevel=0 foldmethod=marker spell:
+" vim: set foldmarker={,} foldlevel=0 foldmethod=marker
 "
 " General {
     " Sets how many lines of history VIM has to remember
@@ -38,13 +38,12 @@
     " Be smart when using tabs ;)
     set smarttab
 
+    " not wrap long lines
+    set nowrap                      
+
     " 1 tab == 4 spaces
     set shiftwidth=4
     set tabstop=4
-
-    " Linebreak on 500 characters
-    " set lbr
-    " set tw=500
 
     set ai "Auto indent
     set si "Smart indent
@@ -57,6 +56,9 @@
 
     " Always show the status line
     set laststatus=2
+
+    set cursorline
+
 " }
 
 " Colors and Fonts {
@@ -79,15 +81,15 @@
 
 " Initialize pathogen {
 
-execute pathogen#infect()
+    execute pathogen#infect()
 
 " }
 
 " Initializing plugins {
-set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+    set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 " }
 
 " Some key bindings {
-" Fast saving
-nmap <leader>w :w<cr>
+    " Fast saving
+    nmap <leader>w :w<cr>
 " }
