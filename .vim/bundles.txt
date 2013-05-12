@@ -1,0 +1,2 @@
+PowerLine https://github.com/Lokaltog/powerline.git
+NerdTree https://github.com/scrooloose/nerdtree.git
