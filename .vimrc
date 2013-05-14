@@ -92,4 +92,7 @@
 " Some key bindings {
     " Fast saving
     nmap <leader>w :w<cr>
+
+    "Nerdtree browsing
+    map <leader>o :NERDTreeToggle<CR>
 " }
