@@ -3,3 +3,4 @@ PowerLine https://github.com/Lokaltog/powerline.git
 NerdTree https://github.com/scrooloose/nerdtree.git
 Fugitive https://github.com/tpope/vim-fugitive.git
 CtrlP https://github.com/kien/ctrlp.vim.git 
+Gundo https://github.com/vim-scripts/Gundo.git

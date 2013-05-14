@@ -95,4 +95,8 @@
 
     "Nerdtree browsing
     map <leader>o :NERDTreeToggle<CR>
+    
+    "Gundo view
+    map <leader>u :GundoToggle<CR>
 " }
+
